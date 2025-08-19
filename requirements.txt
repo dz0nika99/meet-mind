@@ -1,0 +1,73 @@
+# Core web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ML/AI dependencies
+sentence-transformers==2.2.2
+openai==1.3.7
+numpy==1.24.3
+scikit-learn==1.3.2
+torch==2.1.1
+transformers==4.35.2
+
+# Vector database
+qdrant-client==1.7.0
+
+# Optional RAG frameworks
+langchain==0.0.350
+llama-index==0.9.8
+
+# Document processing
+python-docx==1.1.0
+PyPDF2==3.0.1
+pypdf==3.17.4
+markdown==3.5.1
+beautifulsoup4==4.12.2
+
+# Audio transcription
+faster-whisper==0.9.0
+librosa==0.10.1
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+
+# Async support
+httpx==0.25.2
+aiofiles==23.2.1
+
+# Configuration and environment
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Monitoring and observability
+prometheus-client==0.19.0
+sentry-sdk[fastapi]==1.38.0
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+factory-boy==3.3.0
+
+# Code quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
+
+# Development tools
+jupyter==1.0.0
+ipython==8.18.1
+notebook==7.0.6
+
+# Utilities
+click==8.1.7
+rich==13.7.0
+tqdm==4.66.1
