@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.pytest_cache/**
+.pyre/
+.mypy_cache/
+.mypy_cache/**
+.pytype/
+.pytype/**
+.env
+.env.local
+.env.*.local
+.vscode/settings.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Test / Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Logs
+*.log
+logs/
+log/
+
+# SQLite / DB
+*.sqlite3
+*.db
+*.db-journal
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Docker
+docker-compose.override.yml
+.env.docker
+.Dockerfile
+docker-compose.override.yml
+
+# Node (in case you add a frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Qdrant / Local DBs / Storage (if you keep local data folders)
+data/
+storage/
+qdrant_storage/
+redis_data/
+
+# Hugging Face / Transformers / Torch cache
+# (these are often stored in the user's home cache; keep local caches out of repo)
+.cache/
+.cache/huggingface/
+.cache/torch/
+huggingface_cache/
+transformers_cache/
+
+# Model / artifacts
+models/
+*.pt
+*.bin
+*.ckpt
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# generated files
+__pycache__/
+*.pyc
+
+# Editor temp files
+*~
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+*.py[cod]
+
+# Optional: add local config files you don't want committed
+instance/
+config/local_settings.py
+
+# Keep example env in repo but ignore real env files
+!.env.example
+
+# Git LFS cache
+.gitattributes
